@@ -15,9 +15,9 @@ export default function App() {
           <Header />
         </HeaderWrapper>
         <PageContent />
-        <GlobalStyles />
       </Wrapper>
       <HelpButton />
+      <GlobalStyles />
     </>
   );
 }

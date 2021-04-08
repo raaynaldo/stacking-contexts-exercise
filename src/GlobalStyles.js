@@ -1,9 +1,13 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   *, *:before, *:after {
     box-sizing: border-box;
     font-family: sans-serif;
+  }
+
+  #root {
+    isolation: isolate;
   }
 
   /* http://meyerweb.com/eric/tools/css/reset/ 
